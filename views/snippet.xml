@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data>
+        <template id="custom_snippet_cycle" inherit_id="website.snippets">
+            <xpath expr="//div[@id='snippet_content']" position="inside">
+                <div name="Floating Image with Caption">
+                    <div class="oe_snippet_thumbnail">
+                        <img class="oe_snippet_thumbnail_img" src="/website/static/src/img/blocks/block_text_image.png"/>
+                        <span class="oe_snippet_thumbnail_title">Captioned Image</span>
+                    </div>
+                    <div class="oe_snippet_body o_image_floating o_margin_l pull-right">
+                        <div class="o_container">
+                            <img class="img img-rounded img-responsive" src="/website/static/src/img/library/ipad.png"/>
+                            <mark class="text-center o_image_floating_caption">Use the Image with Caption widget when you want an image with an overlay for a piece of text.</mark>
+                        </div>
+                    </div>
+                </div>
+           </xpath>
+        </template>
+    </data>
+</openerp>

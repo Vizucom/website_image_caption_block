@@ -1,0 +1,5 @@
+/* Darken the background a bit so the text is more readable */
+.o_image_floating div.o_container mark.o_image_floating_caption {
+    color: #FFF;
+    background-color: rgba(86, 61, 124, 0.45);
+}
